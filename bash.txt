@@ -1,0 +1,43 @@
+
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+# added by Anaconda3 4.4.0 installer
+export PATH="/Users/brucevan/anaconda/bin:$PATH"
+
+##
+# Your previous /Users/brucevan/.bash_profile file was backed up as /Users/brucevan/.bash_profile.macports-saved_2018-03-19_at_15:42:46
+##
+
+# MacPorts Installer addition on 2018-03-19_at_15:42:46: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Setting PATH fo Go
+export GOROOT=/usr/local/Cellar/go/1.12.1/libexec
+export GOARCH=amd64
+export GOOS=darwin
+export GOPATH=/Users/brucevan/Go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
+
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:$PATH"
+
+# Setting Path to Tomcat
+export PATH="$PATH:/Users/brucevan/Library/Tomcat/bin:$PATH"
+
+# Setting Path to MySQL server
+export PATH="$PATH:/usr/local/mysql/bin:$PATH"
+
+# Setting path to apache Maven
+export PATH="$PATH:/Users/brucevan/Documents/apache-maven-3.6.1/bin:$PATH"
